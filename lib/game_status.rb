@@ -16,7 +16,8 @@ board = [" "," "," "," "," "," "," "," "," "]
 
 def won?(board)
   i = 1
-  WIN_COMBINATIONS.each do |x|
+  WIN_COMBINATIONS.each do |win_combination|
+    win_combination.each do |x|
   win_i = [x[0], x[1], x[2]]
   i += 1
 end
