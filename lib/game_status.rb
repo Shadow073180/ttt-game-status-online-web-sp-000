@@ -18,7 +18,7 @@ def won?(board)
   counter = 1
   WIN_COMBINATIONS.each do |x|
   combination_counter = win_combination
-  puts combination(counter)
+  print combination(counter)
   counter += 1
 end
 end
