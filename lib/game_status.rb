@@ -21,7 +21,7 @@ def won?(board)
   indexes.push(x)
 end
 end
-puts indexes
+ print indexes
 end
 
 won?(board)
