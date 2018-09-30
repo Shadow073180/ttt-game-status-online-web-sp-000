@@ -17,11 +17,10 @@ board = [" "," "," "," "," "," "," "," "," "]
 def won?(board)
   indexes = []
   WIN_COMBINATIONS.each do |win_combination|
-  win_combination.each do |x|
-  indexes.push(x)
+  if (win_combination[0] == "X" && win_combination[1] == "X" && sin_combination[2] == "X") || (win_combination[0] == "O" && win_combination[1] == "O" && sin_combination[2] == "O")
+    return true
 end
-end
- print indexes
+
 end
 
 won?(board)
