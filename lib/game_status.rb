@@ -42,7 +42,9 @@ b = 0
  def draw?(board)
    if won?(board)
      return false
+     break
    end
+   return true
 end
 
 
