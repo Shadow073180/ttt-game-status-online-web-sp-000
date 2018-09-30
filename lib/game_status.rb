@@ -38,8 +38,8 @@ b = 0
  end
 
  def draw?(board)
-   if !won?(board) || full?(draw) == true
-     return true
+   if won?(board)
+     return false
    end
 end
 
