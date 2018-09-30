@@ -22,3 +22,5 @@ def won?(board)
   counter += 1
 end
 end
+
+won?(board)
