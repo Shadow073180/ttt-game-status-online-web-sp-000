@@ -73,7 +73,6 @@ end
 def full?(board)
   board.none?{|i| i == !position_taken(board, index)}
   end
-end
 
 
 def draw?(board)
