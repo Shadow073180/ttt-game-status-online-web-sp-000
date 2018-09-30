@@ -45,8 +45,7 @@ b = 0
  def draw?(board)
    if won?(board)
      return false
-
-
+   end
 end
 
 
@@ -54,7 +53,6 @@ def over?(board)
   if (won?(board) && full?(board)) || won?(board)
     return true
   end
-
 end
 
 
@@ -64,8 +62,6 @@ def winner(board)
       return "X"
     elsif  board[win_combination[0]] == "O" && board[win_combination[1]] == "O" && board[win_combination[2]] == "O"
       return "O"
-    elsif full?(board)
-      return nil
     end
   end
 end
