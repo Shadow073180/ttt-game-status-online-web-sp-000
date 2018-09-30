@@ -23,6 +23,8 @@ end
 end
 end
 
+
+
 def full?(board)
 a = 0
 b = 0
@@ -37,10 +39,16 @@ b = 0
    end
  end
 
+
+
  def draw?(board)
    if won?(board)
      return false
    end
+end
+
+
+def over?(board)
 end
 
 full?(board)
