@@ -64,15 +64,14 @@ def won?(board)
     elsif (board[position_22] == "X" && board[position_23] == "X" && board[position_24] == "X") || (board[position_22] == "O" && board[position_23] == "O" && board[position_24] == "0")
       return win_index_8.to_a
     else
-      false
+      return false
   end
 end
 
 
 
 def full?(board)
-  if board.none?{|i| i == !position_taken(board, index)} == true
-    return true
+  
   end
 end
 
