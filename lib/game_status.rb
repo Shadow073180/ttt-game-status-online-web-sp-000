@@ -32,7 +32,9 @@ b = 0
   else
     a += 1
   end
-  print b
+   if b == 9
+     return true
+   end
  end
 
 full?(board)
