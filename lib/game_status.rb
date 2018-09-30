@@ -65,7 +65,7 @@ def won?(board)
       return win_index_8.to_a
     elsif draw?(board)
       return false
-      
+
   end
 end
 
