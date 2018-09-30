@@ -10,8 +10,6 @@ WIN_COMBINATIONS =[
 
 
 board = [" "," "," "," X"," "," "," "," "," "]
-TOKEN_X = "X"
-TOKEN_O = "O"
 
 
 
@@ -51,8 +49,9 @@ end
 def over?(board)
   if (won?(board) && full?(board)) || won?(board)
     return true
-  else
+  elsif !won?(board) && !full?(board)
     return false
+
   end
 end
 
