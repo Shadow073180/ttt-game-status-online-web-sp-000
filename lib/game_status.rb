@@ -16,7 +16,6 @@ TOKEN_O = "O"
 
 
 def won?(board)
-  indexes = []
   WIN_COMBINATIONS.each do |win_combination|
   if (board[win_combination[0]] == "X" && board[win_combination[1]] == "X" && board[win_combination[2]] == "X") || (board[win_combination[0]] == "O" && board[win_combination[1]] == "O" && board[win_combination[2]] == "O")
     return win_combination
@@ -65,13 +64,13 @@ def winner(board)
     end
   end
 end
-  
-    
-    
-    
-    
-    
-    
-  
+
+
+
+
+
+
+
+
 
 full?(board)
