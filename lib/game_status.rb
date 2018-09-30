@@ -71,8 +71,10 @@ end
 
 
 def full?(board)
-  board.none?{|i| i == !position_taken(board, index)}
+  if board.none?{|i| i == !position_taken(board, index)} == true
+    return true
   end
+end
 
 
 def draw?(board)
