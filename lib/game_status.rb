@@ -37,4 +37,10 @@ b = 0
    end
  end
 
+ def draw?(board)
+   if !won?(board) || full?(draw) == true
+     return true
+   end
+end
+
 full?(board)
