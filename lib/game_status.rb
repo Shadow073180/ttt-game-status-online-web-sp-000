@@ -24,10 +24,14 @@ end
 end
 
 def full?(board)
-  board.each {|i|
-    if i.include?("X" || "O")
-  return true
-end}
+a = 0
+b = 0
+  if board[a] == "X" || board[a] == "O"
+     b += 1
+end
+ if b == 9
+   return true
+ end
 end
 
 won?(board)
