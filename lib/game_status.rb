@@ -27,13 +27,12 @@ def full?(board)
 a = 0
 b = 0
   if board[a] == "X" || board[a] == "O"
-     b += 1
-
-end
- a += 1
- if b == 9
-   return true
+   a += 1
+   b += 1
+  else
+    a += 1
+  end
+  print b
  end
-end
 
 won?(board)
