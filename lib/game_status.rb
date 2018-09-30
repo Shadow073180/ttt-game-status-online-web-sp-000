@@ -27,8 +27,8 @@ def full?(board)
 a = 0
 b = 0
   if board[a] == "X" || board[a] == "O"
-   a += 1
-   b += 1
+    a += 1
+    b += 1
   else
     a += 1
   end
