@@ -19,6 +19,7 @@ def won?(board)
   WIN_COMBINATIONS.each do |win_combination|
     win_combination.each do |x|
   win_i = [x[0], x[1], x[2]]
+  print win_i
   i += 1
 end
 end
