@@ -20,6 +20,7 @@ def won?(board)
   win_combination.each do |x|
   indexes.push(x)
 end
+end
 puts indexes
 end
 
