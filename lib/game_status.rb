@@ -24,7 +24,7 @@ end
 end
 
 def full?(board)
-  board.each {|i| i.all?.include?("X" || "O")}
+  board.each {|i| i.include?("X" || "O")}
   return true
 end
 end
