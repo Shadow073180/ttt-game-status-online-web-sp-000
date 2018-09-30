@@ -22,5 +22,6 @@ def won?(board)
   i += 1
 end
 end
+end
 
 won?(board)
