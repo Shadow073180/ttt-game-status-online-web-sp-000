@@ -15,4 +15,9 @@ board = [" "," "," "," "," "," "," "," "," "]
 
 
 def won?(board)
+  counter = 1
+  WIN_COMBINATIONS.each do |win_combination|
+  combination(counter) = win_combination
+  puts combination(counter)
+end
 end
