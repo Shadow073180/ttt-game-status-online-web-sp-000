@@ -35,4 +35,4 @@ b = 0
   print b
  end
 
-won?(board)
+full?(board)
