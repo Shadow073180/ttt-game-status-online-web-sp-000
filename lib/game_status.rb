@@ -71,7 +71,7 @@ end
 
 
 def full?(board)
-  [1,3].none?{|i| i == !position_taken(board, index)}
+  board.none?{|i| i == !position_taken(board, index)}
   end
 end
 
