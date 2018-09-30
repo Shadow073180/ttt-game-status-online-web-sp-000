@@ -28,8 +28,9 @@ a = 0
 b = 0
   if board[a] == "X" || board[a] == "O"
      b += 1
-     puts b
+
 end
+ a += 1
  if b == 9
    return true
  end
