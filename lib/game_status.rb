@@ -15,11 +15,10 @@ board = [" "," "," "," "," "," "," "," "," "]
 
 
 def won?(board)
-  counter = 1
+  i = 1
   WIN_COMBINATIONS.each do |x|
-  combination_counter = x
-  print combination_counter
-  counter += 1
+  win_i = [x[0], x[1], x[2]]
+  i += 1
 end
 end
 
