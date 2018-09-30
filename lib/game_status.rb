@@ -24,6 +24,9 @@ end
 end
 
 def full?(board)
+  board.each {|i| i.all?.include?("X" || "O")}
+  return true
+end
 end
 
 won?(board)
